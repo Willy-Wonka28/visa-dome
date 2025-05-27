@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from 'lucide-react';
@@ -35,7 +34,7 @@ const Hero = () => {
           <select className="w-full border border-gray-300 px-3 py-2 h-20 appearance-none focus:outline-none">
             <option>Nigeria</option>
           </select>
-          <ChevronDown className="absolute right-3 top-[38px] pointer-events-none text-gray-500" />
+          <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none text-gray-500" />
         </div>
 
         {/* Dropdown: Destination */}
@@ -45,7 +44,7 @@ const Hero = () => {
             <option>Which country?</option>   
             <option>United States of America</option> 
           </select>
-          <ChevronDown className="absolute right-3 top-[38px] pointer-events-none text-gray-500" />
+          <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 pointer-events-none text-gray-500" />
         </div>
 
         {/* Button */}
