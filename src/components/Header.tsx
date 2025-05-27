@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,8 +23,8 @@ const Header = () => {
           
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
-              <a href="/" className="text-gray-700 hover:text-burgundy px-3 py-2 text-sm font-medium">Home</a>
-              <a href="/visa" className="text-gray-700 hover:text-burgundy px-3 py-2 text-sm font-medium">Destination</a>
+              <Link to="/" className="text-gray-700 hover:text-burgundy px-3 py-2 text-sm font-medium">Home</Link>
+              <Link to="/visa" className="text-gray-700 hover:text-burgundy px-3 py-2 text-sm font-medium">Destination</Link>
               <a href="#" className="text-gray-700 hover:text-burgundy px-3 py-2 text-sm font-medium">Funding</a>
               <a href="#services" className="text-gray-700 hover:text-burgundy px-3 py-2 text-sm font-medium">Other Services</a>
               <a href="#process" className="text-gray-700 hover:text-burgundy px-3 py-2 text-sm font-medium">Refer & Earn</a>
