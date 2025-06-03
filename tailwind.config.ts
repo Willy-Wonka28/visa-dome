@@ -70,6 +70,9 @@ export default {
 					dark: '#6A2329',
 				}
 			},
+			fontFamily: {
+				sans: ['Georgia', 'serif'],
+			  },
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
