@@ -44,7 +44,7 @@ const Footer = () => {
         </div> */}
         
         <div className="border-t border-gray-200 mt-2 pt-2 flex flex-col gap-4 justify-between items-center">
-          <p className="text-gray-600">© {currentYear} VisaCompass. All rights reserved.</p>
+          <p className="text-gray-600">© {currentYear} VisaDome. All rights reserved.</p>
           <div className="flex space-x-6 mt-2 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-burgundy">
               <span className="sr-only">Facebook</span>
